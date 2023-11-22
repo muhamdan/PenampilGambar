@@ -36,9 +36,12 @@ public class PilihGambarComboBox extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 255, 255));
 
+        pCardLayout.setBackground(new java.awt.Color(0, 102, 102));
         pCardLayout.setLayout(new java.awt.CardLayout());
 
+        lblGurun.setBackground(new java.awt.Color(255, 255, 255));
         lblGurun.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/gurun.jpg"))); // NOI18N
         pCardLayout.add(lblGurun, "1");
 
